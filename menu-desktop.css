@@ -1,0 +1,44 @@
+.menu-desktop__link{
+    width: 100%;
+}
+
+.menu-desktop{
+    background-color: #FFE4C4;
+    display: grid;
+    font-size: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 1.5rem 1rem;
+    gap: 1rem;
+    text-align: center;
+    
+}
+
+.menu-desktop__link--inicio{
+    grid-column: span 3;
+}
+
+.menu-desktop__link--tapetes{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .menu-desktop{
+        display: none;
+    }
+}
